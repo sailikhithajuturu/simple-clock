@@ -1,0 +1,91 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: #1e1e1e ;
+}
+
+.clock {
+    width: 80%;
+    padding: 40px;
+    background-color: #000000;
+    border: 3px solid #059212;
+    border-radius: 10px;
+}
+
+.clock .weekdays {
+    font-size: 24px;
+    color: #3C3D37;
+    font-weight: 900;
+    width: 100%;
+    margin-bottom: 10px;
+    text-align: center;
+    font-family: 'Digital-7 Mono';
+}
+
+.weekdays span {
+    padding: 0 10px;
+    opacity: 0.9;
+}
+
+.weekdays span.active {
+    opacity: 1;
+    color: #059212;
+}
+
+.timeDisplay {
+    display: flex;
+    justify-content: center;
+    color: #059212;
+}
+
+.timeDisplay .time {
+    font-size: 120px;
+    display: flex;
+    justify-content: center;
+    letter-spacing: 3px;
+    font-family: 'Digital-7 Mono';
+}
+
+.timeDisplay .time .seconds {
+    font-size: 50px;
+    margin-top: 55px;
+}
+
+.timeDisplay .time .dot2 {
+    font-size: 60px;
+    margin-top: 50px;
+    margin-left: 10px;
+}
+
+.timeDisplay .format {
+    font-size: 45px;
+    margin-top: 12px;
+    margin-left: 320px;
+    position: absolute;
+    font-family: 'Digital-7 Mono';
+}
+
+.dateDisplay {
+    text-align: center;
+    font-size: 40px;
+    font-weight: 400;
+    margin-top: 20px;
+    color: #059212;
+    font-family: 'Digital-7 Mono';
+}
+
+.time .dot , .time .dot2 {
+    animation: blinker 1s linear infinite;
+}
+
+@keyframes blinker {
+    25% { opacity: 0; }
+}
