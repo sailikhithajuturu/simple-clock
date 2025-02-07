@@ -22,7 +22,7 @@ This is a simple, lightweight clock application built using HTML, CSS, and JavaS
  - Add new features like date display or different time zones.
 # Demo
 Here’s how the clock looks:
-## https://21ak1a0427.github.io/Smiple-Clock/
+## [click here](https://sailikhithajuturu.github.io/simple-clock/)
 
 ## License
 This project is licensed under the MIT License. Feel free to use, modify, and distribute it as you like.
